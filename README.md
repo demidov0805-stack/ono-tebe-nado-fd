@@ -1,1 +1,1 @@
-https://github.com/demidov0805-stack/second-project
+https://github.com/demidov0805-stack/ono-tebe-nado-fd
