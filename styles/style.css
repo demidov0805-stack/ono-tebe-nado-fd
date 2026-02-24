@@ -207,7 +207,6 @@ text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
 box-sizing: border-box;
-position: absolute;
 width: 256px;
 height: 51px;
 border: 1px solid #FFFFFF;
@@ -223,7 +222,7 @@ top: 1230px;
 z-index: 1;
 }
 
-.lots__heading{
+.lots__heading {
 position: absolute;
 width: 121px;
 height: 47px;
@@ -256,7 +255,6 @@ top: 74px;
 position: absolute;
 width: 334px;
 height: 596px;
-left: 359px;
 top: 74px;
 left: 383px;
 }
@@ -265,7 +263,6 @@ left: 383px;
 position: absolute;
 width: 334px;
 height: 596px;
-left: 718px;
 top: 74px;
 left: 742px;
 }
@@ -384,26 +381,12 @@ top: 133px;
 
 
 }
-.columns-container{
+.columns-container {
 display: grid;
 grid-template-columns: 240px 1fr;
 gap: 72px;
 }
 
-.about__title {
-position: absolute;
-width: 291px;
-height: 47px;
-left: 0px;
-top: 3px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-text-transform: uppercase;
-color: #000000;
-}
 
 .about__text {
 position: absolute;
@@ -427,7 +410,7 @@ max-width: 148px;
 max-height: 114px;
 opacity: 1;
 top: 64px;
-left: 46px;
+left: 50px;
 justify-content: center;
 align-items: center;
 }
@@ -457,7 +440,6 @@ width: 693px;
 height: 312px;
 left: 0px;
 top: 150px; 
-
 }
 
 .footer {
@@ -488,9 +470,7 @@ left: 380px;
   width: 163.9px;
   height: 64px;
   left: 450px;
-  top: 1px;
-  justify-content: center;
-  align-items: center;
+  top: 1px;  
 }
 
 .social-links {
@@ -528,7 +508,7 @@ top: 1px;
 
   }
 
-  .footer__social-icon-pin{
+  .footer__social-icon-pin {
   display: flex;
   position: absolute;
   width: 48px;
